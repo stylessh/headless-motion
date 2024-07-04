@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: var(--gray-900);
+  font-weight: 700;
+}
+
+.mediaLinks {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+
+  a {
+    font-size: 0.875rem;
+    text-decoration: none;
+
+    svg {
+      color: var(--gray-500);
+      transition: color 200ms linear;
+    }
+
+    &:hover {
+      svg {
+        color: var(--gray-700);
+      }
+    }
+  }
+}

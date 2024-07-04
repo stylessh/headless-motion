@@ -1,0 +1,8 @@
+.code {
+  background: var(--gray-200);
+  font-family: var(--font-geist-mono);
+  color: var(--accent);
+
+  padding: 0.125rem 0.45rem;
+  border-radius: 6px;
+}
