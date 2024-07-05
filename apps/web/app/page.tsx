@@ -3,6 +3,7 @@ import { Header } from "@/components/header";
 import styles from "./page.module.css";
 import { Code } from "@/components/code";
 import { CodeBlock } from "@/components/code-block";
+import { VariableCard } from "@/examples/variable-card";
 
 export default function Home() {
   return (
