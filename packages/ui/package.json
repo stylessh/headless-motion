@@ -5,6 +5,17 @@
   "exports": {
     ".": "./dist/index.js"
   },
+  "keywords": [
+    "headless",
+    "motion",
+    "framer-motion",
+    "ui",
+    "react",
+    "interactions",
+    "animations",
+    "transitions",
+    "animation"
+  ],
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",
