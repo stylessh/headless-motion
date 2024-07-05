@@ -24,6 +24,7 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
+    "@changesets/cli": "^2.27.7",
     "framer-motion": "^11.2.13",
     "react": "18.3.1",
     "react-use-measure": "^2.1.1"
