@@ -1,4 +1,4 @@
-# @headless-motion/ui
+# headless-motion
 
 ## 0.0.2
 

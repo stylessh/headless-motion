@@ -2,7 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
-import { MotionWrapper } from "@headless-motion/ui";
+import { MotionWrapper } from "headless-motion";
 
 export const metadata: Metadata = {
   title: "Headless Motion",

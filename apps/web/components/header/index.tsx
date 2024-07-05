@@ -5,7 +5,7 @@ import { Github } from "lucide-react";
 const MEDIA_LINKS = [
   {
     title: "Github",
-    href: "https://github.com/steve-lin/headless-motion",
+    href: "https://github.com/stylessh/headless-motion",
     icon: Github,
   },
 ];

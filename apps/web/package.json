@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headless-motion/ui": "workspace:*",
+    "headless-motion": "workspace:*",
     "clsx": "^2.1.1",
     "geist": "^1.3.0",
     "lucide-react": "^0.400.0",

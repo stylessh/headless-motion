@@ -1,6 +1,6 @@
 "use client";
 
-import { VariableHeight } from "@headless-motion/ui";
+import { VariableHeight } from "headless-motion";
 import styles from "./variable-card.module.css";
 import { useEffect, useState } from "react";
 
