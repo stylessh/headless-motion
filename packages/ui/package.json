@@ -1,10 +1,12 @@
 {
   "name": "headless-motion",
+  "description": "Put motion on your website within minutes.",
   "version": "0.0.2",
   "private": false,
   "exports": {
     ".": "./dist/index.js"
   },
+  "sideEffects": false,
   "keywords": [
     "headless",
     "motion",
@@ -16,6 +18,9 @@
     "transitions",
     "animation"
   ],
+  "repository": "https://github.com/stylessh/headless-motion",
+  "license": "MIT",
+  "author": "stylessh",
   "scripts": {
     "lint": "eslint . --max-warnings 0",
     "generate:component": "turbo gen react-component",
