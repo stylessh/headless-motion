@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import styles from "./header.module.css";
 import { Github } from "lucide-react";
+import Link from "next/link";
 
 const MEDIA_LINKS = [
   {
@@ -13,7 +14,9 @@ const MEDIA_LINKS = [
 export function Header({ className }: { className?: string }) {
   return (
     <header className={clsx(styles.header, className)}>
-      <h2 className={styles.title}>Headless Motion</h2>
+      <h2 className={styles.title}>
+        <Link href="/">headless-motion</Link>
+      </h2>
 
       <ul className={styles.mediaLinks}>
         {MEDIA_LINKS.map(({ title, href, icon: Icon }) => (

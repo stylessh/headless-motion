@@ -41,6 +41,9 @@ importers:
       react-dom:
         specifier: 18.3.1
         version: 18.3.1(react@18.3.1)
+      sugar-high:
+        specifier: ^0.7.0
+        version: 0.7.0
     devDependencies:
       '@repo/eslint-config':
         specifier: workspace:*
@@ -5508,6 +5511,10 @@ packages:
       pirates: 4.0.6
       ts-interface-checker: 0.1.13
     dev: true
+
+  /sugar-high@0.7.0:
+    resolution: {integrity: sha512-YLiKnecbREzIW8pML5X0l7osEYBgTrQI29BB7wjIoDOpZ6F7dAkbY7PoI5BNBN7hWio+3pn6+emaNLPkJbmB8A==}
+    dev: false
 
   /supports-color@5.5.0:
     resolution: {integrity: sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow==}

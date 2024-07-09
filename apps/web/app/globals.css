@@ -1,5 +1,5 @@
 :root {
-  --background: #F6F8FA;
+  --background: #f6f8fa;
   --background-100: #fefefe;
 
   --gray-100: #f1f0ea;
@@ -11,7 +11,7 @@
   --gray-700: #404040;
   --gray-800: #262626;
   --gray-900: #171717;
-  --gray-1000: #0a0a0a;
+  --gray-1000: #0d0d0d;
 
   --gray-alpha-100: #f1f0ea20;
   --gray-alpha-200: #e6e6e620;
@@ -24,8 +24,18 @@
   --gray-alpha-900: #17171720;
   --gray-alpha-1000: #0a0a0a20;
 
-
   --accent: #f26419;
+
+  /* syntax highlighting */
+  --sh-class: #2d5e9d;
+  --sh-identifier: #354150;
+  --sh-sign: #8996a3;
+  --sh-property: #0550ae;
+  --sh-entity: #249a97;
+  --sh-jsxliterals: #6266d1;
+  --sh-string: #00a99a;
+  --sh-keyword: #f47067;
+  --sh-comment: #a19595;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -33,7 +43,7 @@
     --background: #000000;
     --background-100: #0a0a0a;
 
-    --gray-100: #0a0a0a;
+    --gray-100: #0d0d0d;
     --gray-200: #171717;
     --gray-300: #262626;
     --gray-400: #404040;
@@ -56,6 +66,17 @@
     --gray-alpha-1000: #f1f0ea20;
 
     --accent: #f26419;
+
+    /* syntax highlighting */
+    --sh-class: var(--gray-900);
+    --sh-identifier: var(--gray-600);
+    --sh-sign: var(--gray-700);
+    --sh-property: var(--gray-900);
+    --sh-entity: var(--gray-600);
+    --sh-jsxliterals: var(--accent);
+    --sh-string: var(--gray-700);
+    --sh-keyword: var(--accent);
+    --sh-comment: var(--gray-600);
   }
 }
 
@@ -110,6 +131,11 @@ p {
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+button {
+  background: transparent;
+  border: none;
 }
 
 @media (prefers-color-scheme: dark) {

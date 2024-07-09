@@ -49,4 +49,22 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+
+    padding: 0.8rem 1.5rem;
+    border-radius: 99px;
+
+    background-color: var(--accent);
+    color: var(--gray-100);
+
+    font-size: 0.875rem;
+    font-weight: 700;
+
+    transition: background-color 150ms ease;
+  }
 }

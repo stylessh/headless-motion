@@ -1,9 +1,7 @@
 "use client";
 
 import useMeasure from "react-use-measure";
-import { Easing, m, MotionProps } from "framer-motion";
-
-const DEFAULT_EASE: Easing[] = [0.22, 0.36, 0.24, 1.0] as unknown as Easing[];
+import { m, MotionProps } from "framer-motion";
 
 interface VariableHeightProps extends MotionProps {
   children: React.ReactNode;
@@ -17,12 +15,18 @@ export function VariableHeight({
   ...props
 }: VariableHeightProps) {
   const [ref, bounds] = useMeasure();
+  const heightToSet = bounds.height > 0 ? bounds.height : "auto";
 
   return (
     <m.div
-      animate={{ height: bounds.height }}
-      style={{ height: bounds.height, overflow: "hidden" }}
-      transition={{ duration: 0.2, ease: DEFAULT_EASE, ...transition }}
+      animate={{ height: heightToSet }}
+      style={{ height: heightToSet }}
+      transition={{
+        type: "spring",
+        duration: 0.4,
+        bounce: 0,
+        ...transition,
+      }}
       {...props}
     >
       <div ref={ref} className={className}>

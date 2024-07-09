@@ -1,0 +1,26 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .header {
+    margin-bottom: 2rem;
+  }
+
+  .section {
+    margin-bottom: 2rem;
+  }
+
+  .title {
+    color: var(--gray-900);
+    margin-bottom: 1rem;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    margin-block: 2rem;
+  }
+}

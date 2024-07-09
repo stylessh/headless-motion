@@ -1,5 +1,8 @@
 .card {
-  width: 300px;
+  position: relative;
+  bottom: 0;
+  
+  width: 240px;
   border-radius: 8px;
   padding: 1rem;
 
@@ -17,8 +20,30 @@
     color: var(--gray-900);
   }
 
+  .section {
+    margin-block: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
   .description {
     font-size: 0.875rem;
     color: var(--gray-600);
+  }
+
+  .button {
+    margin-top: 1rem;
+
+    padding: 0.6rem 1rem;
+    border-radius: 99px;
+
+    background-color: var(--accent);
+    color: var(--gray-100);
+
+    font-size: 0.875rem;
+    font-weight: 700;
+
+    transition: background-color 150ms ease;
   }
 }
