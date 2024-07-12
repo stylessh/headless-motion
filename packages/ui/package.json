@@ -1,7 +1,7 @@
 {
   "name": "headless-motion",
   "description": "Put motion on your website within minutes.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "exports": {
     ".": "./dist/index.js"
