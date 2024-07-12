@@ -2,7 +2,7 @@
 
 import { VariableHeight } from "headless-motion";
 import styles from "./variable-card.module.css";
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 
 export function VariableCard() {
   const [step, setStep] = useState(0);
