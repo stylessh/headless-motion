@@ -3,6 +3,7 @@ import { Header } from "@/components/header";
 import styles from "./examples.module.css";
 import { Card } from "@/components/card";
 import { VariableCard } from "@/examples/variable-card";
+import { MotionTextExample } from "@/examples/motion-text";
 
 export default function Examples() {
   return (
@@ -12,7 +13,7 @@ export default function Examples() {
 
         <section className={styles.section}>
           <h3 className={styles.title}>Examples</h3>
-          
+
           <p>
             Explore the examples below to see how you can use the primitives to
             build your animations.
@@ -22,6 +23,10 @@ export default function Examples() {
         <section className={styles.list}>
           <Card title="Variable Height">
             <VariableCard />
+          </Card>
+
+          <Card title="Motion Text">
+            <MotionTextExample />
           </Card>
         </section>
       </Container>

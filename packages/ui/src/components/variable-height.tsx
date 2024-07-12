@@ -23,7 +23,7 @@ export function VariableHeight({
       style={{ height: heightToSet }}
       transition={{
         type: "spring",
-        duration: 0.4,
+        duration: 0.5,
         bounce: 0,
         ...transition,
       }}
