@@ -4,6 +4,7 @@ import styles from "./examples.module.css";
 import { Card } from "@/components/card";
 import { VariableCard } from "@/examples/variable-card";
 import { MotionTextExample } from "@/examples/motion-text";
+import { MorphTextExample } from "@/examples/morph-text";
 
 export default function Examples() {
   return (
@@ -27,6 +28,10 @@ export default function Examples() {
 
           <Card title="Motion Text">
             <MotionTextExample />
+          </Card>
+
+          <Card title="Morph Text">
+            <MorphTextExample />
           </Card>
         </section>
       </Container>
